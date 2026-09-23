@@ -4,7 +4,7 @@ Reverse-engineering notes for the AgroBot's electrical system: the tomato-pickin
 
 > **Status:** the robot is not currently working. This document combines a recorded walkthrough by last year's electrical lead with this year's field notes from tracing the hardware. Anything marked **unconfirmed** or **?** has not been checked on the robot yet. Verify before you power up.
 
-![AgroBot block schematic](docs/agrobot-schematic.png)
+![AgroBot block schematic](agrobot-schematic.png)
 
 *Block-level schematic. Colors: brown = 110 VAC, red = 48 V motive, blue = 24 V logic, purple = CAN, green = Ethernet/USB, dotted green = Wi-Fi, amber dashed = safety signal, gray dashed = present but unused.*
 
