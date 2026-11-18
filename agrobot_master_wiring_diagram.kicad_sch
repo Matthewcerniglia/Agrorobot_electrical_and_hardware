@@ -1069,6 +1069,16 @@
 		)
 		(uuid "18602c74-8d4d-4349-b73a-8c45b76d4448")
 	)
+	(text "Only one power supply present on rail, another\n can be added with current draw is too large,\n but unlikely to be needed."
+		(exclude_from_sim no)
+		(at 59.944 133.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1984eb9c-a5e3-42ee-a161-83680675e028")
+	)
 	(text "Up+"
 		(exclude_from_sim no)
 		(at 190.5 96.012 0)
@@ -1111,7 +1121,7 @@
 	)
 	(text "10x Din Rail Slim Relay Module HF41F 12-ZS 24-ZS \nwith 41F-1Z-C2-1 Holder Socket (24V)  "
 		(exclude_from_sim no)
-		(at 223.012 76.962 0)
+		(at 222.758 61.722 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3181,7 +3191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0212293a-a44f-4b59-8392-4557b31b236c")
-		(property "Reference" "TP11"
+		(property "Reference" "D11"
 			(at 205.74 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3243,7 +3253,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP11")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4952,7 +4962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "185f1b1f-6eac-4c52-8f07-c03b1f5b6dc0")
-		(property "Reference" "TP1"
+		(property "Reference" "D1"
 			(at 205.74 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5014,7 +5024,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP1")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5352,7 +5362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba9f8c6-77a3-4b21-a7d0-4ce1fa22ed1f")
-		(property "Reference" "TP4"
+		(property "Reference" "D4"
 			(at 204.47 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5414,7 +5424,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP4")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6153,7 +6163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25be5670-c731-4d87-910a-9afa49ea0063")
-		(property "Reference" "TP3"
+		(property "Reference" "D3"
 			(at 205.74 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6215,7 +6225,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP3")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6715,7 +6725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b42674a-b121-4864-87f5-94a92ac1292a")
-		(property "Reference" "TP9"
+		(property "Reference" "D9"
 			(at 205.74 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6777,7 +6787,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP9")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7913,7 +7923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3753e00f-fc85-44b3-8799-49f28699dd19")
-		(property "Reference" "TP14"
+		(property "Reference" "D14"
 			(at 204.47 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7975,7 +7985,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP14")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8072,7 +8082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c986396-57ac-4af3-90c7-1473f8ae71bd")
-		(property "Reference" "TP12"
+		(property "Reference" "D12"
 			(at 204.47 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8134,7 +8144,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP12")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11592,7 +11602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72db58ea-51ae-4094-93bb-91e2068e0a82")
-		(property "Reference" "TP10"
+		(property "Reference" "D10"
 			(at 204.47 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11654,7 +11664,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP10")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -14306,7 +14316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bf86062-b9e3-4164-b68e-6f9d37b638c7")
-		(property "Reference" "TP0"
+		(property "Reference" "D0"
 			(at 204.47 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14368,7 +14378,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP0")
+					(reference "D0")
 					(unit 1)
 				)
 			)
@@ -14706,7 +14716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e5f8a63-fdbb-4054-9d24-78f3e027e6e2")
-		(property "Reference" "TP15"
+		(property "Reference" "D15"
 			(at 205.74 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14768,7 +14778,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP15")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -15108,7 +15118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d5fa34-9993-4b11-9e58-c2554c7e09a7")
-		(property "Reference" "TP8"
+		(property "Reference" "D8"
 			(at 204.47 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15170,7 +15180,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP8")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -15987,7 +15997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b14d11b9-8489-4279-8bbc-5450b7b136a6")
-		(property "Reference" "TP6"
+		(property "Reference" "D6"
 			(at 204.47 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16049,7 +16059,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP6")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -16390,7 +16400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5875ba4-86e7-48e1-8467-97c4694d99a1")
-		(property "Reference" "TP2"
+		(property "Reference" "D2"
 			(at 204.47 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16452,7 +16462,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP2")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16631,7 +16641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6a10dd4-6af7-422c-8ee7-28fef6ea12c5")
-		(property "Reference" "TP13"
+		(property "Reference" "D13"
 			(at 205.74 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16693,7 +16703,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP13")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -17672,7 +17682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c24438b4-13e7-4ca8-a2e9-37aea1fe5e0f")
-		(property "Reference" "TP7"
+		(property "Reference" "D7"
 			(at 205.74 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17734,7 +17744,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP7")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -20314,7 +20324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb9fb719-4667-42ee-97e2-f8eb0b39e492")
-		(property "Reference" "TP5"
+		(property "Reference" "D5"
 			(at 205.74 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20376,7 +20386,7 @@
 		(instances
 			(project "agrobot_master_wiring_diagram"
 				(path "/534124d7-0531-4f9a-ac39-c71473e80d99"
-					(reference "TP5")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -21265,6 +21275,10 @@
 		)
 	)
 	(group ""
+		(uuid "0f768c8f-27f6-4035-a901-d0be6705b78b")
+		(members "a1da478d-4fed-43bc-9c58-a8347f9a5548")
+	)
+	(group ""
 		(uuid "159a169c-bf7f-406b-822c-e907f9480b54")
 		(members "495b2021-34bd-46b1-a992-35448fce3129" "4f69be84-8eb1-4ed5-9804-c2ba9c7e6394"
 			"6d6c3312-ec5e-4ca2-a8fd-0b87993e2d44" "a4a3f5ab-f637-4026-a766-b7e19daa0e39"
@@ -21281,6 +21295,18 @@
 			"cac3c2cd-f7ce-4be5-bc41-ff835077ef9a" "d807fabc-87db-4382-9e9e-8ae847446e50"
 			"dd168e53-ecbc-4445-ac74-6a7fa5823acb"
 		)
+	)
+	(group ""
+		(uuid "1da8fc93-a5a1-4029-a411-d1c5af9b70b6")
+		(members "4a4adc19-29c6-41dd-b280-7f3146a55df0")
+	)
+	(group ""
+		(uuid "46654009-f625-471f-b20d-f18c759b55bd")
+		(members "3070b3d2-5c9b-4334-8501-df63609abb94")
+	)
+	(group ""
+		(uuid "71ecb406-a818-491c-b690-abc665fd789c")
+		(members "981bddb0-2ff9-4ce3-aabd-ae5952fc8e52")
 	)
 	(group ""
 		(uuid "82eef99f-f128-42d4-a5a8-9b0c645b5022")
@@ -21310,6 +21336,10 @@
 		)
 	)
 	(group ""
+		(uuid "b3d3b580-129f-43a7-acdd-cb726cf724ef")
+		(members "1244cdeb-477f-4e15-896e-e265442da3c7")
+	)
+	(group ""
 		(uuid "b492d4d3-805f-4ca3-b81e-fb8ec61cf268")
 		(members "351ccdd0-afa2-43fa-91fd-298d69d1bdbb" "4f6ebc67-637c-46a9-8a28-7b9733bcacc9"
 			"73c36d52-2a07-4104-9713-c7a454b79373" "74117ac9-365b-4abc-9b13-7fb1156cb667"
@@ -21328,6 +21358,14 @@
 		)
 	)
 	(group ""
+		(uuid "c2ad0041-886d-4f7b-9328-8019acde81c6")
+		(members "8cdbdc85-83a3-4370-8297-abd0da5922c5")
+	)
+	(group ""
+		(uuid "cab547a1-0312-43f3-9b66-7408b25c96f4")
+		(members "f0ee9a3c-a2d1-406e-96a6-879648bf0d9b")
+	)
+	(group ""
 		(uuid "dd730fea-3149-452b-85fb-85373dc80809")
 		(members "299734e8-7883-4180-b610-1258462048fe" "322cde48-a9aa-4105-ab42-ab2d669998bc"
 			"5726d84a-c66a-4f01-be0c-e15ff98eee7c" "7a5066d6-1115-41a9-93c3-6b15582846f0"
@@ -21335,6 +21373,18 @@
 			"e101519f-82b2-4b04-93cc-ea20c8cd9746" "efd276c7-70f7-4368-ab7e-1a86399e380e"
 			"f390ce9a-4336-48b3-92be-7a35c9eb9c44"
 		)
+	)
+	(group ""
+		(uuid "e07df05a-d078-4ae6-9f24-07b7c3393a91")
+		(members "6f5ba445-b20c-427b-818d-20cc3e06de55")
+	)
+	(group ""
+		(uuid "e929aa88-6d27-4365-81fb-a76557901e42")
+		(members "f31e62d0-bf85-4651-96b6-bd302e09d2c9")
+	)
+	(group ""
+		(uuid "fc987e7a-2d73-4672-8ab1-b218d8c863c2")
+		(members "06944d4b-1f05-4ca8-a3de-4e33dbee660d")
 	)
 	(sheet_instances
 		(path "/"

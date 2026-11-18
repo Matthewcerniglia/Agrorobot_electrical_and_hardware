@@ -1,0 +1,3023 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8e82f955-055b-4327-af8a-e9e6bd2c2016")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(circle
+		(center 150.241 122.047)
+		(radius 4.066)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1624d06c-1f01-4844-8053-559ce37b6f89")
+	)
+	(circle
+		(center 54.991 122.047)
+		(radius 4.066)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "24824328-de03-45ad-8c42-18ac3d14a34e")
+	)
+	(rectangle
+		(start 27.305 104.14)
+		(end 31.115 115.57)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 4 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "36b10ba4-39a1-4546-8871-c37ac5da7a9e")
+	)
+	(circle
+		(center 183.261 122.047)
+		(radius 4.066)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3cf4344c-42dd-4896-a94d-0bddb8c5a0f7")
+	)
+	(circle
+		(center 88.011 122.047)
+		(radius 4.066)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "66c598a6-9f68-4ff3-99a5-eccfc9b0955f")
+	)
+	(rectangle
+		(start 22.86 127.635)
+		(end 34.29 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6bda9c58-a79e-45ba-8701-ae3929a35dbd")
+	)
+	(circle
+		(center 119.761 122.047)
+		(radius 4.066)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "be8da9a1-d74f-485c-b65a-7d9f7e88b789")
+	)
+	(circle
+		(center 215.011 122.047)
+		(radius 4.066)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c238cf1f-3e32-429e-96dd-710b32976e8b")
+	)
+	(text "Button\n"
+		(exclude_from_sim no)
+		(at 146.558 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d258e99-f23b-47fe-9845-3bbe0841a749")
+	)
+	(text "Button\n"
+		(exclude_from_sim no)
+		(at 211.328 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31363024-9171-4440-8539-b4edc02f43a1")
+	)
+	(text "Button\n"
+		(exclude_from_sim no)
+		(at 51.308 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76042701-2bf5-42c1-8919-58bfdd62d2be")
+	)
+	(text "Button\n"
+		(exclude_from_sim no)
+		(at 179.578 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fa6460b-6c00-46bb-9543-1540e57d5d4c")
+	)
+	(text "PButton 0\n.\n.\n.\nPButton 5"
+		(exclude_from_sim no)
+		(at 21.59 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7ab1458-3bd2-4121-9f5d-3ec21658ece5")
+	)
+	(text "Button\n"
+		(exclude_from_sim no)
+		(at 116.078 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bace9ca6-f3c7-4f79-86b4-418f33467da0")
+	)
+	(text "Button\n"
+		(exclude_from_sim no)
+		(at 84.328 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc311ad2-e5c5-408d-92f6-72f8f327fb9f")
+	)
+	(text "24V"
+		(exclude_from_sim no)
+		(at 29.21 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5a4ab93-2643-473d-a1fb-0278b6df4cba")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 176.53 116.84 0)
+		(size 12.7 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "37baf42b-ad4e-415e-9b01-407dc21ea775")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 208.28 116.84 0)
+		(size 12.7 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4d5918dc-3f61-485b-9b9f-47be6ab39a92")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 143.51 116.84 0)
+		(size 12.7 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6a0dde53-6dbf-4254-a919-ed1777a12614")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 48.26 116.84 0)
+		(size 12.7 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b4355eaf-0550-438e-a58a-55cb2130e730")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 113.03 116.84 0)
+		(size 12.7 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d4297088-1ff5-4050-96b1-fff3c8f19153")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 81.28 116.84 0)
+		(size 12.7 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fc35bf64-e34c-4d98-b705-d485f0d71381")
+	)
+	(no_connect
+		(at 187.96 118.11)
+		(uuid "0e612e93-d9a2-4004-bc53-8a6a6ae5395c")
+	)
+	(no_connect
+		(at 187.96 125.73)
+		(uuid "23f5a120-9876-4022-b80a-3ae63328daab")
+	)
+	(no_connect
+		(at 219.71 125.73)
+		(uuid "27766361-e72d-4f88-bf12-2a9c0fc7a045")
+	)
+	(no_connect
+		(at 59.69 118.11)
+		(uuid "58fef3ba-1891-4565-84ea-c6edcc6542ac")
+	)
+	(no_connect
+		(at 154.94 118.11)
+		(uuid "59607150-08b0-41db-ba3f-dd81dc798c77")
+	)
+	(no_connect
+		(at 92.71 118.11)
+		(uuid "63a5c085-f8ab-4711-bc57-b0abb922f99c")
+	)
+	(no_connect
+		(at 59.69 125.73)
+		(uuid "87ff5450-9e53-48d9-a603-2bfcf9fde5f7")
+	)
+	(no_connect
+		(at 124.46 118.11)
+		(uuid "b1f21ca7-6c25-48f2-a7d2-1616b8d0f725")
+	)
+	(no_connect
+		(at 92.71 125.73)
+		(uuid "b25f69e0-d280-490e-b3f5-31f32808384f")
+	)
+	(no_connect
+		(at 124.46 125.73)
+		(uuid "d33006e0-974f-42af-9992-11b3e3e4a134")
+	)
+	(no_connect
+		(at 219.71 118.11)
+		(uuid "da8d3f41-fe91-4483-bdbb-9193cc16b938")
+	)
+	(no_connect
+		(at 154.94 125.73)
+		(uuid "fc6b1f33-58be-4e15-b7b4-71a932f90ac4")
+	)
+	(wire
+		(pts
+			(xy 29.21 110.49) (xy 111.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "02035ff6-e442-4532-a741-5a78f4a93d09")
+	)
+	(polyline
+		(pts
+			(xy 144.78 120.65) (xy 145.415 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0924066c-ce31-43a6-a1e3-00b39006eb7e")
+	)
+	(wire
+		(pts
+			(xy 209.55 118.11) (xy 207.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "0d7ae00a-3905-45cf-a34a-82a6ebceb627")
+	)
+	(wire
+		(pts
+			(xy 177.8 118.11) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "144fe2a8-ae31-464b-bd91-642e73a896cc")
+	)
+	(wire
+		(pts
+			(xy 29.21 134.62) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ca29ff-cc4d-47a5-98d9-f021d57b081d")
+	)
+	(wire
+		(pts
+			(xy 111.76 118.11) (xy 111.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "151645f3-d12d-4673-88e7-fb3bf2fff8f1")
+	)
+	(polyline
+		(pts
+			(xy 144.78 118.745) (xy 144.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172de617-a6f3-46c9-9cee-04d1680ccbfb")
+	)
+	(wire
+		(pts
+			(xy 175.26 118.11) (xy 175.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "22cf0f52-9ec5-49f3-93cd-b92e83b0d5bb")
+	)
+	(wire
+		(pts
+			(xy 29.21 111.76) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "2388f5d8-50a3-476b-ab53-653ac0a9d2b9")
+	)
+	(wire
+		(pts
+			(xy 29.21 106.68) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "247c5316-3cb6-41b2-aa6f-ef8ee759f0b3")
+	)
+	(polyline
+		(pts
+			(xy 82.55 120.65) (xy 83.185 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b3c8ae-6ac6-43e3-ad2b-d13280befd5f")
+	)
+	(polyline
+		(pts
+			(xy 177.8 118.745) (xy 177.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fc05d8-f39b-4c2f-83f2-baf13d2819d1")
+	)
+	(wire
+		(pts
+			(xy 144.78 125.73) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2719e833-fdc3-4d18-9c8e-40427ec04b31")
+	)
+	(wire
+		(pts
+			(xy 29.21 130.81) (xy 49.53 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e085e1b-779f-4e5f-bfd5-94b2b4ee1abe")
+	)
+	(polyline
+		(pts
+			(xy 49.53 122.555) (xy 49.53 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8b95ac-95cc-4b9b-a943-cc753e68874c")
+	)
+	(polyline
+		(pts
+			(xy 114.3 118.745) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3075e222-34fa-4bfc-9053-81be12fd4132")
+	)
+	(wire
+		(pts
+			(xy 142.24 118.11) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "4187ab68-fd2c-4b70-9f8a-f510c6a03e90")
+	)
+	(polyline
+		(pts
+			(xy 177.8 120.65) (xy 178.435 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494b217a-c467-462e-918e-61801a53e1e1")
+	)
+	(wire
+		(pts
+			(xy 49.53 125.73) (xy 49.53 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e80b12c-1668-4fba-be29-c170218cfc4c")
+	)
+	(polyline
+		(pts
+			(xy 49.53 118.745) (xy 49.53 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6e92a2-980f-4d2b-8b9d-e4d24e6f1027")
+	)
+	(wire
+		(pts
+			(xy 29.21 113.03) (xy 46.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "594ba7d4-2f14-4f0a-be59-22139418f9ed")
+	)
+	(polyline
+		(pts
+			(xy 177.8 122.555) (xy 177.8 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59803fa4-e7c7-48cc-ac48-2b53959ddc39")
+	)
+	(polyline
+		(pts
+			(xy 82.55 118.745) (xy 82.55 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8248e3-ecae-4c6a-9908-ae70c2399c1d")
+	)
+	(polyline
+		(pts
+			(xy 209.55 122.555) (xy 209.55 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c160646-7575-4476-ac8d-925ec2a306d1")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 111.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "6dc4c083-e24a-4f59-9838-861789f7fd51")
+	)
+	(wire
+		(pts
+			(xy 82.55 118.11) (xy 80.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "74bea209-922b-4eec-9a7d-6d26c8599c12")
+	)
+	(wire
+		(pts
+			(xy 29.21 137.16) (xy 209.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be6ba6d-5079-4c19-928d-042ed2dbc38e")
+	)
+	(wire
+		(pts
+			(xy 114.3 125.73) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839d5dbb-2742-49ab-9d38-76eb85d2bf46")
+	)
+	(polyline
+		(pts
+			(xy 144.78 122.555) (xy 144.78 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855c5b24-5fd1-4175-a6da-df83d21f48b9")
+	)
+	(polyline
+		(pts
+			(xy 49.53 120.65) (xy 50.165 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c89a2e5-5d54-4037-8158-56ff783bf71c")
+	)
+	(bus
+		(pts
+			(xy 29.21 130.81) (xy 29.21 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f643dad-f300-4e9a-ac16-21d514612610")
+	)
+	(polyline
+		(pts
+			(xy 82.55 122.555) (xy 82.55 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9224a3c3-b804-4703-9339-5984473f1aed")
+	)
+	(wire
+		(pts
+			(xy 29.21 132.08) (xy 82.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962add5a-edf7-475e-afb2-d65621a3510b")
+	)
+	(wire
+		(pts
+			(xy 29.21 107.95) (xy 175.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "969ca014-bc2a-46db-ba6b-b859c62966e5")
+	)
+	(polyline
+		(pts
+			(xy 209.55 118.745) (xy 209.55 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b23c4e-dcdc-4719-9a47-5622edf3dd04")
+	)
+	(wire
+		(pts
+			(xy 46.99 118.11) (xy 46.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "9c9a452c-067c-457e-b3c1-0c35df2817c8")
+	)
+	(wire
+		(pts
+			(xy 209.55 125.73) (xy 209.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4737847-8de0-4273-a9ec-09f5d54f106d")
+	)
+	(wire
+		(pts
+			(xy 29.21 135.89) (xy 177.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ab28ce-05a2-42fd-9f39-7c8b7dee973b")
+	)
+	(wire
+		(pts
+			(xy 29.21 133.35) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89d1423-b4eb-4fb2-bb85-c169686a0262")
+	)
+	(wire
+		(pts
+			(xy 29.21 109.22) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "ad22f5d5-ee76-4358-b39c-1b9268e95a79")
+	)
+	(wire
+		(pts
+			(xy 82.55 125.73) (xy 82.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2df03eb-cb93-4165-ac15-f913c7d26305")
+	)
+	(polyline
+		(pts
+			(xy 114.3 120.65) (xy 114.935 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf21e976-d404-4e5d-a0f9-4ac005437d41")
+	)
+	(wire
+		(pts
+			(xy 142.24 118.11) (xy 144.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "c3c1c3c7-7c32-47b4-9f70-4d744a123e34")
+	)
+	(wire
+		(pts
+			(xy 177.8 125.73) (xy 177.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62ea860-caeb-4942-8af6-765ef36a418b")
+	)
+	(polyline
+		(pts
+			(xy 114.3 122.555) (xy 114.3 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8facc29-3c8a-4b05-99b3-0b99a7c1f107")
+	)
+	(wire
+		(pts
+			(xy 46.99 118.11) (xy 49.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "ef9e596a-b516-4365-aca1-261f7f862e05")
+	)
+	(polyline
+		(pts
+			(xy 209.55 120.65) (xy 210.185 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d15d5c-69be-42c6-8a33-d12fc71d17e7")
+	)
+	(wire
+		(pts
+			(xy 207.01 118.11) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "f8dbe82c-a861-4917-9891-038c65ab521f")
+	)
+	(wire
+		(pts
+			(xy 80.01 118.11) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 0 1)
+		)
+		(uuid "fecfb7ce-7012-4efa-8e72-e2344bd6cf1d")
+	)
+	(label "D0 ... D5"
+		(at 24.13 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ec76255-5738-4c0a-9075-944bc318c138")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 187.96 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "060ab24b-5f0d-4893-94b8-f57788fd7857")
+		(property "Reference" "TP133"
+			(at 189.23 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 189.23 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b21834b8-b0c4-4514-89dc-7662d0a29c53")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 124.46 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e7b136-28d5-4e82-a42b-750406202904")
+		(property "Reference" "TP125"
+			(at 125.73 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 125.73 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a7b0c36-6178-49c7-9859-4ef9b907b4e4")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 144.78 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11399576-3bab-4854-a4ec-ad3915bbcc63")
+		(property "Reference" "TP127"
+			(at 146.05 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 146.05 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "337b55b7-9bf6-49d6-b32e-78a1a97c049a")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 124.46 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50045c3b-f9fb-49fe-a832-b8361eae8d72")
+		(property "Reference" "TP126"
+			(at 125.73 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 125.73 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "597207b4-7a04-460e-9abb-38997bbef11a")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 187.96 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5396cf96-d3e1-49c6-8558-8653d86854ff")
+		(property "Reference" "TP134"
+			(at 189.23 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 189.23 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9523a0f4-3e43-4107-8628-bcdf143705c9")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 114.3 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55a803e4-41e2-4d38-a2e2-d12a94c7a79d")
+		(property "Reference" "TP123"
+			(at 115.57 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 115.57 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f11c4e2-7a62-44db-989d-da40e080c981")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 49.53 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c18d534-6aab-4b7f-b7f4-5846ec6a3c3b")
+		(property "Reference" "TP116"
+			(at 50.8 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 50.8 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebdb20c4-9198-4b2f-a79c-e981fa9127a6")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 219.71 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f257ce6-d9e3-48e7-a334-ed6fc5fed648")
+		(property "Reference" "TP137"
+			(at 220.98 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 220.98 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 219.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a36e195-a044-4985-9e6f-a4c306a5e499")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 114.3 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b538080-0661-4468-8e22-bd672ddb786c")
+		(property "Reference" "TP124"
+			(at 115.57 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 115.57 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3125e353-419b-40a7-9e82-f4ecd40ba5f2")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 49.53 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e4626fc-aca8-442e-9ad0-81807d5e2840")
+		(property "Reference" "TP115"
+			(at 50.8 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 50.8 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "506b178b-2770-4471-b438-16ee40af6711")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 177.8 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70a1e7c9-0409-47d4-8c79-fd9b1f056d09")
+		(property "Reference" "TP132"
+			(at 179.07 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 179.07 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f79f3031-ecf1-4dc7-bbb2-1b40babddcf7")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 92.71 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f9f3ec-c39f-4bc8-b28e-d3af5378b9f3")
+		(property "Reference" "TP122"
+			(at 93.98 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 93.98 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6499687-3040-451d-b1a5-2c2e8af42ae1")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 177.8 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e506396-3ee3-4adf-9738-388115b086b4")
+		(property "Reference" "TP131"
+			(at 179.07 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 179.07 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32a7bf70-7af7-4fd0-8a9b-48a6f5e86324")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 59.69 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1494b9-0c60-47b2-8346-f4fe16b3122f")
+		(property "Reference" "TP118"
+			(at 60.96 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 60.96 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e01a1318-049a-4f39-8187-8c91d9f22818")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 144.78 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a466d38c-425d-4384-9ec9-02ad249ccf7a")
+		(property "Reference" "TP128"
+			(at 146.05 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 146.05 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "139684c5-b825-4f7c-a6af-79f0e70cbc5b")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 154.94 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a672b1a1-5e77-47af-93fc-c227173c15ea")
+		(property "Reference" "TP130"
+			(at 156.21 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 156.21 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cf20a2a-4ee1-4355-a4ab-69e697c92501")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 154.94 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81d0e68-bc92-421c-ba41-aa2a3405ab07")
+		(property "Reference" "TP129"
+			(at 156.21 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 156.21 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb0b6a0c-48d3-49b1-a6c0-8e735def6bfe")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 59.69 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad0a5777-1863-4cf3-ad64-6bd89ba6a1a4")
+		(property "Reference" "TP117"
+			(at 60.96 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 60.96 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ae73512-c6dc-4c58-8d89-a0cf1c89537c")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 82.55 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af45b1eb-6576-492f-a9c8-689770f318b6")
+		(property "Reference" "TP119"
+			(at 83.82 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 83.82 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1619753-44a0-4cae-94d1-8249fea7799b")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.55 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be55067e-28e6-4e34-b63c-c6cd6b4d94a2")
+		(property "Reference" "TP135"
+			(at 210.82 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.82 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ae6d1cf-ac54-43eb-a50f-aa95e960fe47")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.55 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c440a21f-51e7-406e-913d-ad21ed552919")
+		(property "Reference" "TP136"
+			(at 210.82 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.82 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79550bb7-76e1-44a0-b873-e9b041b1c437")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 219.71 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56bbd6d-d452-48e2-a012-5c1adf8ce1b4")
+		(property "Reference" "TP138"
+			(at 220.98 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 220.98 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 219.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff638741-3b77-42db-b97e-150adaff7945")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 92.71 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de09d7a8-596a-4ff7-994c-ba44f59187b0")
+		(property "Reference" "TP121"
+			(at 93.98 116.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 93.98 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe1d7889-a079-4e36-949c-281238449ebf")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 82.55 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f722cc1c-f25b-4a2d-90b1-3806ad1368ba")
+		(property "Reference" "TP120"
+			(at 83.82 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 83.82 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2036c257-3ffa-4af3-b69d-8174f090aa11")
+		)
+		(instances
+			(project "agrobot_master_wiring_diagram"
+				(path "/259274c5-26c2-4844-882b-21faa13370f0/2d66935d-beba-4b52-ac0a-fbc796ef9fc5"
+					(reference "TP120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(group ""
+		(uuid "06223091-5553-4974-882e-8f414273d85f")
+		(members "31363024-9171-4440-8539-b4edc02f43a1")
+	)
+	(group ""
+		(uuid "3351b42f-10c1-4f81-bf3a-c554acfa66fa")
+		(members "24b3c8ae-6ac6-43e3-ad2b-d13280befd5f" "5b8248e3-ecae-4c6a-9908-ae70c2399c1d"
+			"63a5c085-f8ab-4711-bc57-b0abb922f99c" "66c598a6-9f68-4ff3-99a5-eccfc9b0955f"
+			"684abfbb-d752-4142-b205-9c4d2fe6b40b" "74f9f3ec-c39f-4bc8-b28e-d3af5378b9f3"
+			"9224a3c3-b804-4703-9339-5984473f1aed" "af45b1eb-6576-492f-a9c8-689770f318b6"
+			"b25f69e0-d280-490e-b3f5-31f32808384f" "de09d7a8-596a-4ff7-994c-ba44f59187b0"
+			"f722cc1c-f25b-4a2d-90b1-3806ad1368ba" "fc35bf64-e34c-4d98-b705-d485f0d71381"
+		)
+	)
+	(group ""
+		(uuid "5d80cfa0-7935-42c7-b212-1337f808d523")
+		(members "2d258e99-f23b-47fe-9845-3bbe0841a749")
+	)
+	(group ""
+		(uuid "684abfbb-d752-4142-b205-9c4d2fe6b40b")
+		(members "dc311ad2-e5c5-408d-92f6-72f8f327fb9f")
+	)
+	(group ""
+		(uuid "8f96938b-edc2-498e-92ce-f45309d8df6a")
+		(members "76042701-2bf5-42c1-8919-58bfdd62d2be")
+	)
+	(group ""
+		(uuid "974015af-a98d-41bb-a6f8-bc3124042b96")
+		(members "7fa6460b-6c00-46bb-9543-1540e57d5d4c")
+	)
+	(group ""
+		(uuid "9af69a09-694a-4c4b-8b7c-a8db49a4a86f")
+		(members "24824328-de03-45ad-8c42-18ac3d14a34e" "2f8b95ac-95cc-4b9b-a943-cc753e68874c"
+			"4f6e92a2-980f-4d2b-8b9d-e4d24e6f1027" "58fef3ba-1891-4565-84ea-c6edcc6542ac"
+			"5c18d534-6aab-4b7f-b7f4-5846ec6a3c3b" "6e4626fc-aca8-442e-9ad0-81807d5e2840"
+			"7f1494b9-0c60-47b2-8346-f4fe16b3122f" "87ff5450-9e53-48d9-a603-2bfcf9fde5f7"
+			"8c89a2e5-5d54-4037-8158-56ff783bf71c" "8f96938b-edc2-498e-92ce-f45309d8df6a"
+			"ad0a5777-1863-4cf3-ad64-6bd89ba6a1a4" "b4355eaf-0550-438e-a58a-55cb2130e730"
+		)
+	)
+	(group ""
+		(uuid "a62f1440-2de1-4590-8f74-6774afa9f56e")
+		(members "060ab24b-5f0d-4893-94b8-f57788fd7857" "0e612e93-d9a2-4004-bc53-8a6a6ae5395c"
+			"23f5a120-9876-4022-b80a-3ae63328daab" "25fc05d8-f39b-4c2f-83f2-baf13d2819d1"
+			"37baf42b-ad4e-415e-9b01-407dc21ea775" "3cf4344c-42dd-4896-a94d-0bddb8c5a0f7"
+			"494b217a-c467-462e-918e-61801a53e1e1" "5396cf96-d3e1-49c6-8558-8653d86854ff"
+			"59803fa4-e7c7-48cc-ac48-2b53959ddc39" "70a1e7c9-0409-47d4-8c79-fd9b1f056d09"
+			"7e506396-3ee3-4adf-9738-388115b086b4" "974015af-a98d-41bb-a6f8-bc3124042b96"
+		)
+	)
+	(group ""
+		(uuid "adce91bd-a06f-41d9-987c-8054c0e35627")
+		(members "bace9ca6-f3c7-4f79-86b4-418f33467da0")
+	)
+	(group ""
+		(uuid "b538f5b0-911e-4035-a596-a4803d1ff421")
+		(members "0924066c-ce31-43a6-a1e3-00b39006eb7e" "11399576-3bab-4854-a4ec-ad3915bbcc63"
+			"1624d06c-1f01-4844-8053-559ce37b6f89" "172de617-a6f3-46c9-9cee-04d1680ccbfb"
+			"59607150-08b0-41db-ba3f-dd81dc798c77" "5d80cfa0-7935-42c7-b212-1337f808d523"
+			"6a0dde53-6dbf-4254-a919-ed1777a12614" "855c5b24-5fd1-4175-a6da-df83d21f48b9"
+			"a466d38c-425d-4384-9ec9-02ad249ccf7a" "a672b1a1-5e77-47af-93fc-c227173c15ea"
+			"a81d0e68-bc92-421c-ba41-aa2a3405ab07" "fc6b1f33-58be-4e15-b7b4-71a932f90ac4"
+		)
+	)
+	(group ""
+		(uuid "c687e5f8-6f7d-4b57-9530-005264e86ae4")
+		(members "06223091-5553-4974-882e-8f414273d85f" "27766361-e72d-4f88-bf12-2a9c0fc7a045"
+			"4d5918dc-3f61-485b-9b9f-47be6ab39a92" "5c160646-7575-4476-ac8d-925ec2a306d1"
+			"5f257ce6-d9e3-48e7-a334-ed6fc5fed648" "98b23c4e-dcdc-4719-9a47-5622edf3dd04"
+			"be55067e-28e6-4e34-b63c-c6cd6b4d94a2" "c238cf1f-3e32-429e-96dd-710b32976e8b"
+			"c440a21f-51e7-406e-913d-ad21ed552919" "c56bbd6d-d452-48e2-a012-5c1adf8ce1b4"
+			"da8d3f41-fe91-4483-bdbb-9193cc16b938" "f5d15d5c-69be-42c6-8a33-d12fc71d17e7"
+		)
+	)
+	(group ""
+		(uuid "fe1feef0-dda0-45eb-a037-07286b562087")
+		(members "10e7b136-28d5-4e82-a42b-750406202904" "3075e222-34fa-4bfc-9053-81be12fd4132"
+			"50045c3b-f9fb-49fe-a832-b8361eae8d72" "55a803e4-41e2-4d38-a2e2-d12a94c7a79d"
+			"6b538080-0661-4468-8e22-bd672ddb786c" "adce91bd-a06f-41d9-987c-8054c0e35627"
+			"b1f21ca7-6c25-48f2-a7d2-1616b8d0f725" "be8da9a1-d74f-485c-b65a-7d9f7e88b789"
+			"bf21e976-d404-4e5d-a0f9-4ac005437d41" "d33006e0-974f-42af-9992-11b3e3e4a134"
+			"d4297088-1ff5-4050-96b1-fff3c8f19153" "e8facc29-3c8a-4b05-99b3-0b99a7c1f107"
+		)
+	)
+)
